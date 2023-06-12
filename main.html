@@ -22,15 +22,21 @@
 		<br>
 
 		
-		<label for="cars" >Car Brands*</label><br>
 		
-		<input type="checkbox" name="cars" id="cars" >
-		<label for="BMW">BMW</label> <br>
-		<input type="checkbox" name="cars" id="cars">
+		<label for="cars" >Car Brands*</label><br>
+		<select name="cars" id="cars">
+			<option name="cars" value="BMW">BMW</option>
+			<option name="cars" value="Audi">Audi</option>
+			<option name="cars" value="Mercedez">Mercedez</option>
+		</select>
+		<!--
+		<input type="checkbox" name="cars" value="BMW" id="BMW" required >
+		<label for="BMW">BMW</label><br>
+		<input type="checkbox" name="cars" value="Audi" id="Audi" required>
 		<label for="Audi">Audi</label><br>
-		<input type="checkbox" name="cars" id="cars">
+		<input type="checkbox" name="cars" value="Mercedez" id="Mercedez" required>
 		<label for="Mercedez">Mercedez</label><br>
-
+-->
 		
 		<br>
 		<label for="age" >Age*</label>
