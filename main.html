@@ -10,7 +10,34 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<form action="/submit" method="post">
+		<label for="name">Name*</label>
+		<input type="text" id="name" placeholder="Name" required><br>
+		<label for="email" >Email*</label>
+		<input type="text" id="email" placeholder="xyz@gmail.com" required>
+		<br>
+		<label for="gender">Gender*</label>
+		<input type="radio" name="gender" value="gender_m">Male
+		<input type="radio" name="gender" value="gender_f">Female
+		<br>
+		<label for="cars">Car Brands*</label><br>
+		<input type="checkbox" name="cars" id="BMW" >BMW <br>
+		<input type="checkbox" name="cars" id="Audi">Audi<br>
+		<input type="checkbox" name="cars" id="Mercedez">Mercedez<br>
+		<br>
+		<label for="age" >Age*</label>
+		<input type="text" required id="age" placeholder="34"><br>
+		<label for="dob" >DoB</label>
+		<input type="date" requirlabeled id="dob"><br>
+				<label for="tel" >Phone Number</>
+		<input type="tel"  id="tel"><br>
+				<label for="password" >Password</label>
+		<input type="password" required id="password" placeholder="************"><br>
+					<label for="check" >Form is correct</label>
+		<input type="checkbox"  required id="check"><br>
+					<button>submit</button>
+		
+	</form>
 </body>
 
 </html>
